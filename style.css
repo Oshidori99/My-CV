@@ -91,15 +91,15 @@ body {
  
         /* Assigning width of each languages*/
         .progress-bar-level-1 {
-            width: 100%;
+            width: calc(100% * 5 / 7);
         }
  
         .progress-bar-level-2 {
-            width: 33.33333%;
+            width: calc(100% * 2 / 7);
         }
  
         .progress-bar-level-3 {
-            width: 16.66666%;
+            width: calc(100% / 7);
         }
  
         
