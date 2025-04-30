@@ -43,6 +43,19 @@ body {
     margin-right: auto; /* Centre le contenu dans la colonne */
     width: 90%; /* Ajuste la largeur pour éviter de dépasser */
 }
+.Contact-info i{
+    display: flex;
+    align-items: center ;
+    margin-bottom: 10px; /* Espace entre les éléments */
+    justify-content: center;;
+}
+
+.Contact-info p{
+    display: flex;
+    align-items: center ;
+    margin-bottom: 10px; /* Espace entre les éléments */
+    justify-content: center;;
+}
 
 .competences_langues {
     font-size: 20px;
