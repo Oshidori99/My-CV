@@ -9,7 +9,7 @@ body {
 /* Style pour la colonne de gauche taille couleur de la police etc */
 .col-g {
     width: 30%;
-    background-color: rgb(2, 2, 44);
+    background-color: rgb(97, 104, 231);
     color: white;
 }
 
@@ -146,30 +146,39 @@ body {
 .col-d {
     width: 70%;
     padding-left: 15px;
-    background-color: rgb(45, 39, 134);
-    color: white;
+    background-color: rgb(163, 235, 192);
+    color: rgb(0, 0, 0);
 }
 
 .haut h1 {
     text-align: center;
     margin-top: 80px;
     font-size: 60px;
-    font-family: 'Bad Script', cursive;
+    font-family: 'Bebas Neue', cursive;
 }
 
 .col-d h2 {
     font-size: 40px;
-    font-family: 'Bad Script', cursive;
+    font-family: 'Bebas Neue', cursive;
     text-align: center;
     margin-top: 0px;
 }
 
+.Acccroche {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+}
+
 .col-d  p {
     font-size: 20px;
-    font-family: 'Bad Script', cursive;
     text-align: center;
     margin-bottom: 16px;
 }
+
+
 
 h3 {
     margin-left: 15px;
