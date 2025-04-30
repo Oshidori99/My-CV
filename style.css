@@ -44,6 +44,7 @@ body {
     width: 90%; /* Ajuste la largeur pour éviter de dépasser */
     box-sizing: border-box;
 }
+
 .Contact-info i,
 .Contact-info p {
     display: flex;
