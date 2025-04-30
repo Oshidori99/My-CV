@@ -31,21 +31,23 @@ body {
 }
 
 /* style pour la partie contact */
+
 .Contact {
+    display: flex;
+    flex-direction: column; /* Aligne les éléments verticalement */
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre les éléments dans la colonne */
     font-size: 20px;
     margin-top: 15px;
-    margin-left: 20px;
+    margin-left: auto; /* Supprime les marges inutiles */
+    margin-right: auto; /* Centre le contenu dans la colonne */
+    width: 90%; /* Ajuste la largeur pour éviter de dépasser */
 }
 
-.Contact a {
-    
-    color: white;
-}
-
-.skills {
+.competences_langues {
     font-size: 20px;
     margin-top: 4.5vw;
-    margin-left: 20px;
+    margin-left: 30px;
 }
 
 .boite {
@@ -54,7 +56,7 @@ body {
 
 /* Styling the border and box
         effect of the progress bar*/
-        .progress-bar {
+        .progress-bar-container {
             width: 90%;
             height: 5px;
             margin-top: 10px;
@@ -66,7 +68,7 @@ body {
  
         /* Stylingthe background color of each
         animation and border radius */
-        .percentage {
+        .progress-bar-level {
             display: block;
             height: 100%;
             background-color: rgb(200, 198, 226);
@@ -75,15 +77,15 @@ body {
         }
  
         /* Assigning width of each languages*/
-        .f {
+        .progress-bar-level-1 {
             width: 100%;
         }
  
-        .a {
+        .progress-bar-level-2 {
             width: 33.33333%;
         }
  
-        .j {
+        .progress-bar-level-3 {
             width: 16.66666%;
         }
  
@@ -97,22 +99,22 @@ body {
         }
 
 /* pour enlever les marges par défaut */
-.info > * {
+.autre-competences > * {
     margin: 0;
 }
 
-.info {
+.autre-competences {
     margin-left: 20px;
-    margin-top: 50px;
-    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-bottom: 30px;
 }
 
-.info h1 {
+.autre-competences h1 {
     font-size: 35px;
     margin-bottom: 10px;
 }
 
-.info p {
+.autre-competences p {
     font-size: 20px;
     margin-top: 10px;
     margin-bottom: 15px;
@@ -193,7 +195,7 @@ hr {
       width: 100%;
     }
 
-    .progress-bar {
+    .progress-bar-conainer {
         margin: 0 auto;
     }
 
