@@ -95,7 +95,7 @@ body {
         }
  
         .progress-bar-level-2 {
-            width: calc(100% * 2 / 7);
+            width: calc(100% / 7);
         }
  
         .progress-bar-level-3 {
