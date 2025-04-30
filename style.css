@@ -38,33 +38,33 @@ body {
     justify-content: center; /* Centre horizontalement */
     align-items: center; /* Centre les éléments dans la colonne */
     font-size: 20px;
-    margin-top: 15px;
+    margin-top: 0px;
     margin-left: auto; /* Supprime les marges inutiles */
     margin-right: auto; /* Centre le contenu dans la colonne */
     width: 90%; /* Ajuste la largeur pour éviter de dépasser */
+    box-sizing: border-box;
 }
-.Contact-info i{
+.Contact-info i,
+.Contact-info p {
     display: flex;
-    align-items: center ;
+    align-items: center;
+    justify-content: center;
     margin-bottom: 10px; /* Espace entre les éléments */
-    justify-content: center;;
-}
-
-.Contact-info p{
-    display: flex;
-    align-items: center ;
-    margin-bottom: 10px; /* Espace entre les éléments */
-    justify-content: center;;
+   }
+   
+.competences_langues h1 {
+    text-align: center;
 }
 
 .competences_langues {
     font-size: 20px;
-    margin-top: 4.5vw;
+    margin-top: 2.3vw;
     margin-left: 30px;
+    text-align: center;
 }
 
 .boite {
-    margin-top: 10px;
+    margin-top: 30px;
 }
 
 /* Styling the border and box
@@ -72,8 +72,8 @@ body {
         .progress-bar-container {
             width: 90%;
             height: 5px;
-            margin-top: 10px;
-            margin-bottom: 10px;
+            margin-top: 5px;
+            margin-bottom: 5px;
             border: 1px solid #0be1e9;
             border-radius: 5px;
             box-shadow: 0 0 10px rgb(33, 86, 231);
@@ -155,14 +155,14 @@ body {
     font-size: 40px;
     font-family: 'Bad Script', cursive;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 0px;
 }
 
 .col-d  p {
     font-size: 20px;
     font-family: 'Bad Script', cursive;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 16px;
 }
 
 h3 {
@@ -182,8 +182,8 @@ h3 {
 }
 
 hr {
-    margin-top: 20px;
-    margin-bottom: 80px;
+    margin-top: 30px;
+    margin-bottom: 40px;
     width: 95%;
 }
 
@@ -196,7 +196,7 @@ hr {
 }
 
 #lhr {
-    margin-bottom: 80px;
+    margin-bottom: 40px;
 }
 
 @media screen and (max-width: 1177px) {
