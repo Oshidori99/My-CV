@@ -1,0 +1,241 @@
+body {
+    margin: 0;
+    margin: 0;
+}
+/* ajout des propriété pour le l'ensemple de mon contenu en display flex et l'affichage sera en colonne */
+.container {
+    display: flex;
+}
+/* Style pour la colonne de gauche taille couleur de la police etc */
+.col-g {
+    width: 30%;
+    background-color: rgb(2, 2, 44);
+    color: white;
+}
+
+
+/* Création du container de mon image*/
+.image-container {
+    display: flex;
+    justify-content: center;
+}
+
+/* style de la photo taille et effet arrondi */
+.image-container img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 1px solid #0be1e9;
+    box-shadow: 0 0 10px rgb(33, 86, 231);
+    margin-top: 2vw;
+}
+
+/* style pour la partie contact */
+.Contact {
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.Contact a {
+    
+    color: white;
+}
+
+.skills {
+    font-size: 20px;
+    margin-top: 4.5vw;
+    margin-left: 20px;
+}
+
+.boite {
+    margin-top: 10px;
+}
+
+/* Styling the border and box
+        effect of the progress bar*/
+        .progress-bar {
+            width: 90%;
+            height: 5px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #0be1e9;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgb(33, 86, 231);
+        }
+ 
+        /* Stylingthe background color of each
+        animation and border radius */
+        .percentage {
+            display: block;
+            height: 100%;
+            background-color: rgb(200, 198, 226);
+            border-radius: 5px;
+            animation: progress 5s ease-in-out infinite;
+        }
+ 
+        /* Assigning width of each languages*/
+        .f {
+            width: 100%;
+        }
+ 
+        .a {
+            width: 33.33333%;
+        }
+ 
+        .j {
+            width: 16.66666%;
+        }
+ 
+        
+        /* Animating the progress bar by
+        initially starting from 0*/
+        @keyframes progress {
+            from {
+                width: 0;
+            }
+        }
+
+/* pour enlever les marges par défaut */
+.info > * {
+    margin: 0;
+}
+
+.info {
+    margin-left: 20px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.info h1 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.info p {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+
+
+/* style pour la colonne de gauche */
+
+.col-d {
+    width: 70%;
+    padding-left: 15px;
+    background-color: rgb(45, 39, 134);
+    color: white;
+}
+
+.haut h1 {
+    text-align: center;
+    margin-top: 80px;
+    font-size: 60px;
+    font-family: 'Bad Script', cursive;
+}
+
+.col-d h2 {
+    font-size: 40px;
+    font-family: 'Bad Script', cursive;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.col-d  p {
+    font-size: 20px;
+    font-family: 'Bad Script', cursive;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+h3 {
+    margin-left: 15px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    justify-content: space-around;
+    row-gap:5px ;
+}
+
+.grid-item {
+    font-size: 20px;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 80px;
+    width: 95%;
+}
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: auto auto ;
+    grid-template-rows: auto auto auto auto;
+    justify-content: space-around;
+    row-gap:5px ;
+}
+
+#lhr {
+    margin-bottom: 80px;
+}
+
+@media screen and (max-width: 1177px) {
+    .container {
+      flex-direction: column;
+    }
+    .col-g {
+        text-align: center;
+      width: 100%;
+    }
+
+    .progress-bar {
+        margin: 0 auto;
+    }
+
+    .contact {
+    justify-content: center;
+    }
+
+    .col-d {
+      width: 100%;
+      padding-left: 0;
+    }
+
+    .col-d p {
+        padding: 10px;
+        margin-bottom: 0px;
+    }
+
+    .col-d h1 {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .grid-container {
+        margin-left: 15px;
+        gap: 10px;
+    }
+
+    .grid-item {
+        font-size: 12px;
+    }
+
+    .grid-container2 {
+        text-align: center;
+        gap : 10px;
+        margin-left: 15px;
+    }
+
+    hr {
+        margin-bottom: 15px;
+    }
+
+    #lhr {
+        margin-bottom: 15px;
+    }
+  }
