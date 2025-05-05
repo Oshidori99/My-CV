@@ -113,35 +113,45 @@ body {
         }
  
         /* Assigning width of each languages*/
+        /* Français - Vert avec motif */
         .progress-bar-level-1 {
-            background-color: rgba(9, 255, 0, 0.941); /* Bleu clair et transparent */
-            animation-delay: 0.4s; /* Délai pour l'animation */
+            background-image: linear-gradient(45deg, rgba(0, 255, 0, 0.6) 30%, transparent 10%, transparent 30%, rgba(16, 224, 27, 0.6) 50%, rgb(0, 192, 225) 70%, transparent 20%, transparent);
+            background-size: 20px 20px;
+            animation-delay: 0.4s;
             width: calc(100% * 6 / 8); /* Largeur spécifique */
         }
+        
+        /* Anglais - Bleu avec motif */
+        .progress-bar-level-2 {
+            background-image: linear-gradient(37deg, rgba(0, 0, 255, 0.6) 40%, transparent 25%, transparent 30%, rgba(0, 0, 255, 0.6) 50%, rgb(255, 196, 0) 70%, transparent 10%, transparent);
+            background-size: 20px 20px;
+            animation-delay: 0.4s;
+            width: calc(100% * 5 / 16); /* Largeur spécifique */
+            background-color: rgba(12, 241, 233, 0.874); /* Bleu clair et transparent */
+        }
+        
+        /* Japonais - Magenta avec motif */
+        .progress-bar-level-3 {
+            background-image: linear-gradient(45deg, rgba(255, 0, 255, 0.6) 25%, transparent 25%, transparent 50%, rgba(255, 0, 255, 0.6) 50%, rgba(255, 0, 255, 0.6) 75%, transparent 75%, transparent);
+            background-size: 20px 20px;
+            animation-delay: 0.4s;
+            width: calc(100% * 2 / 8); /* Largeur spécifique */
+            background-color: rgba(237, 241, 9, 0.826); /* Bleu clair et transparent */
+        }
+ 
         .progress-bar-level-1 + .progress-bar-indicator-1 {
             left: calc(100% * 6 / 8); /* Position de la barre rouge */
-        }
-
-        .progress-bar-level-2 {
-            background-color: rgba(12, 241, 233, 0.874); /* Bleu clair et transparent */
-            animation-delay: 0.4s; /* Délai pour l'animation */
-            width: calc(100% * 5 / 16); /* Largeur spécifique */
         }
         .progress-bar-level-2 + .progress-bar-indicator-2 {
             left: calc(100% * 5 / 16); /* Position de la barre rouge */
         }
-
-        .progress-bar-level-3 {
-            background-color: rgba(241, 9, 214, 0.826); /* Bleu clair et transparent */
-            animation-delay: 0.4s; /* Délai pour l'animation */
-            width: calc(100% * 2 / 8); /* Largeur spécifique */
-        }
         .progress-bar-level-3 + .progress-bar-indicator-3 {
             left: calc(100% * 2 / 8); /* Position de la barre rouge */
         }
+
         .progress-bar-indicator {
             height: 100%;
-            width: 2px;
+            width: 3px;
             background-color: red;
             position: absolute;
             top: 0;
