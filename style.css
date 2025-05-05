@@ -55,7 +55,6 @@ body {
     align-items: center;
     justify-content: center;
     margin: 10px; /* Espace entre les éléments */
-
    }
 
 .competences_langues h1 {
@@ -269,7 +268,7 @@ hr {
       width: 100%;
     }
 
-    .progress-bar-conainer {
+    .progress-bar-container {
         margin: 0 auto;
     }
 
