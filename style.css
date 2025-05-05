@@ -9,7 +9,7 @@ body {
 /* Style pour la colonne de gauche taille couleur de la police etc */
 .col-g {
     width: 30%;
-    background-color: rgb(97, 104, 231);
+    background-color: rgb(137, 141, 216);
     color: white;
 }
 
@@ -43,18 +43,29 @@ body {
     margin-right: auto; /* Centre le contenu dans la colonne */
     width: 90%; /* Ajuste la largeur pour éviter de dépasser */
     box-sizing: border-box;
+    margin-bottom: 0px;
 }
-
+.Contact h1 {
+    margin-top: 7px;
+    margin-bottom: 0px;
+}
 .Contact-info i,
 .Contact-info p {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 10px; /* Espace entre les éléments */
+    margin: 10px; /* Espace entre les éléments */
+
    }
+
+.competences_langues h1 {
+    margin: 0; /* Supprime les marges */
+}
    
 .competences_langues h1 {
     text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .competences_langues {
@@ -64,6 +75,15 @@ body {
     text-align: center;
 }
 
+.competences_langues h2 {
+    font-size: 30px;
+    margin-top: 17px;
+}
+.competences_langues p {
+    font-size: 22px;
+    margin-top: 4px;
+    margin-bottom: 9px;
+}
 .boite {
     margin-top: 30px;
 }
@@ -72,12 +92,15 @@ body {
         effect of the progress bar*/
         .progress-bar-container {
             width: 90%;
-            height: 5px;
+            height: 30px;
             margin-top: 5px;
             margin-bottom: 5px;
             border: 1px solid #0be1e9;
             border-radius: 5px;
             box-shadow: 0 0 10px rgb(33, 86, 231);
+            overflow: hidden;
+            position: relative;
+            background-color: rgb(58, 10, 201);
         }
  
         /* Stylingthe background color of each
@@ -92,17 +115,39 @@ body {
  
         /* Assigning width of each languages*/
         .progress-bar-level-1 {
-            width: calc(100% * 5 / 7);
+            background-color: rgba(9, 255, 0, 0.941); /* Bleu clair et transparent */
+            animation-delay: 0.4s; /* Délai pour l'animation */
+            width: calc(100% * 6 / 8); /* Largeur spécifique */
         }
- 
+        .progress-bar-level-1 + .progress-bar-indicator-1 {
+            left: calc(100% * 6 / 8); /* Position de la barre rouge */
+        }
+
         .progress-bar-level-2 {
-            width: calc(100% / 7);
+            background-color: rgba(12, 241, 233, 0.874); /* Bleu clair et transparent */
+            animation-delay: 0.4s; /* Délai pour l'animation */
+            width: calc(100% * 5 / 16); /* Largeur spécifique */
         }
- 
+        .progress-bar-level-2 + .progress-bar-indicator-2 {
+            left: calc(100% * 5 / 16); /* Position de la barre rouge */
+        }
+
         .progress-bar-level-3 {
-            width: calc(100% / 7);
+            background-color: rgba(241, 9, 214, 0.826); /* Bleu clair et transparent */
+            animation-delay: 0.4s; /* Délai pour l'animation */
+            width: calc(100% * 2 / 8); /* Largeur spécifique */
         }
- 
+        .progress-bar-level-3 + .progress-bar-indicator-3 {
+            left: calc(100% * 2 / 8); /* Position de la barre rouge */
+        }
+        .progress-bar-indicator {
+            height: 100%;
+            width: 2px;
+            background-color: red;
+            position: absolute;
+            top: 0;
+            z-index: 2;
+        }
         
         /* Animating the progress bar by
         initially starting from 0*/
@@ -147,7 +192,7 @@ body {
 .col-d {
     width: 70%;
     padding-left: 15px;
-    background-color: rgb(163, 235, 192);
+    background-color: rgb(179, 224, 197);
     color: rgb(0, 0, 0);
 }
 
