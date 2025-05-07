@@ -9,7 +9,7 @@ body {
 /* Style pour la colonne de gauche taille couleur de la police etc */
 .col-g {
     width: 30%;
-    background-color: #5cb1ea;
+    background-color: #5e65b9;
     color: rgb(0, 0, 0);
 }
 
@@ -210,7 +210,7 @@ body {
     text-align: center;
     margin-top: 80px;
     font-size: 60px;
-    font-family: 'Aptos', cursive;
+    font-family: 'Victor Mono';
 }
 
 .col-d h2 {
