@@ -269,14 +269,15 @@ hr {
     row-gap:10px ;
 }
 
-.grid-container3 {
-    display: grid;
-    grid-template-columns: auto auto ;
-    grid-template-rows: auto auto ;
-    justify-content: space-around;
-    row-gap:10px ;
+.loisirs {
+    justify-content: center;
+    text-align: center;
 }
 
+ h1 {
+    justify-content: center;
+    text-align: center;
+}
 #lhr {
     margin-bottom: 30px;
 }
