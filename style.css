@@ -9,7 +9,7 @@ body {
 /* Style pour la colonne de gauche taille couleur de la police etc */
 .col-g {
     width: 30%;
-    background-color: #c8dde1;
+    background-color: #5cb1ea;
     color: rgb(0, 0, 0);
 }
 
@@ -99,7 +99,7 @@ body {
             box-shadow: 0 0 10px rgb(33, 86, 231);
             overflow: hidden;
             position: relative;
-            background-color: rgb(58, 10, 201);
+            background-color: rgb(182, 232, 233);
         }
  
         /* Stylingthe background color of each
