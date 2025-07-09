@@ -213,17 +213,18 @@ body {
     font-family: 'Victor Mono';
 }
 
-.col-d h2 {
-    font-size: 40px;
-    font-family: 'Bebas Neue', cursive;
+.haut h4 {
     text-align: center;
-    margin-top: 0px;
+    margin-top: 50px;
+    font-size: 20px;
+    font-family: 'Bebas Neue';
 }
 
-.Acccroche {
+
+.haut .Accroche {
     font-size: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 60px;
+    margin-bottom: 50px;
     text-align: center;
     font-family: 'Bebas Neue', cursive;
 }
