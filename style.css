@@ -23,7 +23,7 @@ body {
 /* style de la photo taille et effet arrondi */
 .image-container img {
     width: 250px;
-    height: 250px;
+    height: 300px;
     border-radius: 50%;
     border: 1px solid #0be1e9;
     box-shadow: 0 0 10px rgb(33, 86, 231);
